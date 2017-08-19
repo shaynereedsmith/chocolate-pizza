@@ -64,4 +64,68 @@ body {
 footer {
   margin-top: 30px;
   border-top: 15px solid lightgray;
+  padding-top: 30px;
+}
+
+button {
+  background: #bc7058;
+  border-radius: 0;
+  color: white;
+  padding: 10px;
+  border: 0;
+  width: 200px;
+  height: 60px;
+  font-size: 19px;
+  margin-left: 20px;
+}
+
+.vHeader {
+  font-size: 25px;
+  padding-top: 0;
+  margin-top: 0;
+  line-height: 0;
+}
+
+.vBody {
+  color: #828c95;
+  font-size: 1.2em;
+}
+
+footer img {
+  padding-right: 20px;
+}
+
+.checklistLeft {
+  font-size: 19px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  line-height: 0.6;
+  padding-left: 45px;
+  padding-top: 25px;
+  color: #877559;
+}
+
+ .checklistRight {
+   font-size: 19px;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   line-height: 0.6;
+   padding-right: 45px;
+   padding-top: 25px;
+   color: #877559;
+ }
+
+.strike {
+  text-decoration: line-through;
+  color: #877559
+}
+
+legend {
+  text-align: center;
+  opacity: 0.5;
+}
+
+fieldset {
+  border-top: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
