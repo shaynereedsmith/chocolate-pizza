@@ -12,7 +12,7 @@ body {
 .theLeft {
   font-family: 'Leckerli One', cursive;
   padding-top: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.7em;
   line-height: 0em;
 }
 
@@ -25,6 +25,7 @@ body {
   font-size: 0.5em;
   color: #828c95;
   font-family: sans-serif;
+  line-height: 0;
 }
 
 .floatLeft {
@@ -121,6 +122,7 @@ footer img {
 legend {
   text-align: center;
   opacity: 0.5;
+  padding-left: 1em;
 }
 
 fieldset {
@@ -128,4 +130,21 @@ fieldset {
   border-left: none;
   border-right: none;
   border-bottom: none;
+}
+
+.bananas {
+  text-align: center;
+  color: gray;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.pad {
+  padding-right: 10px;
+}
+
+.padSmal {
+  padding-right: 2px;
 }
