@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  width: 85%;
+  width: 901px;
   margin: auto;
 }
 
@@ -23,7 +23,7 @@ body {
 
 .subHead {
   font-size: 0.5em;
-  color: gray;
+  color: #828c95;
   font-family: sans-serif;
 }
 
@@ -43,4 +43,25 @@ body {
 .graySmall {
   color: lightgray;
   font-size: small;
+}
+
+.indent {
+  text-indent: 30px;
+  color: #828c95;
+  font-size: 1.2em;
+}
+
+.subTitle {
+  color: #828c95;
+}
+
+.paper {
+  background-image: url("list-bg.png");
+  width: 899px;
+  height: 305px;
+}
+
+footer {
+  margin-top: 30px;
+  border-top: 15px solid lightgray;
 }
